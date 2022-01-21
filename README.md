@@ -1,4 +1,5 @@
 # Neural-Cellular-Automata-Image-Manipulation
+[![Twitter Follow](https://img.shields.io/twitter/follow/AntonObukhov1?style=social&label=Subscribe!)](https://twitter.com/Omorfiamorphism)
 
 WIP In the middle of uploading all the files WIP
 

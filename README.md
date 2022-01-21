@@ -10,7 +10,8 @@ StyleTransfer:\
 
 CLIP Example:\
 Prompt: "A pencil sketch"\
-![alt text](./media/CLIP_sketch.gif "CLIP based Image Modification", width=100)
+![alt text](./media/CLIP_sketch.gif "CLIP based Image Modification")
+<img src="./media/CLIP_sketch.gif" width="100" height="100">
 
 Style Transfer Example:
 Style Image: A picture of cooked pasta\

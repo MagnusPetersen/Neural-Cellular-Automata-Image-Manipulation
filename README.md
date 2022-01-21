@@ -10,12 +10,11 @@ StyleTransfer:\
 
 CLIP Example:\
 Prompt: "A pencil sketch"\
-![alt text](./media/CLIP_sketch.gif "CLIP based Image Modification")
-<img src="./media/CLIP_sketch.gif" width="100" height="100">
+<img src="./media/CLIP_sketch.gif" height="300">
 
 Style Transfer Example:
 Style Image: A picture of cooked pasta\
-![alt text](./media/vgg_pasta.gif "VGG Style Transfer")
+<img src="./media/vgg_pasta.gif" height="300">
 
 
 For more updates follow me on twitter [![Twitter Follow](https://img.shields.io/twitter/follow/AntonObukhov1?style=social&label=Subscribe!)](https://twitter.com/Omorfiamorphism)

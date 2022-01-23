@@ -4,6 +4,8 @@ This is the repository for both style transfer and CLIP text based image modific
 
 This repo contains code to use NCAs to transform images. One notebook contains the code for a Gatys et. al. type style transfer and the other a OpenAI CLIP based version where a prompt can be given to train NCAs to perform that transformation. 
 
+The state space is given by a grid with the width and height of the image that is to be edited with 18 channels, 3 rgb of the stating image that cant be overwritten by the NCAs, 3 rgb channels of the image that is being iterated on and 12 hidden channels. The three channels that correspond to the original unedited image so that the NCA have access to the unaltered image as reference. 
+
 CLIP:\
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ieXiaoXfrcTt6f2vIGx3Fw1Oz3hyZm-Y?usp=sharing)
 
@@ -19,6 +21,7 @@ Style Image: A picture of cooked pasta\
 <img src="./media/vgg_pasta.gif" height="300">
 
 Sources:
+
 [1]
 
 [2]

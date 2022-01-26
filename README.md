@@ -6,6 +6,8 @@ This repo contains code to use NCAs to transform images. One notebook contains t
 
 The state space is given by a grid with the width and height of the image that is to be edited with 18 channels, 3 rgb of the stating image that cant be overwritten by the NCAs, 3 rgb channels of the image that is being iterated on and 12 hidden channels. The three channels that correspond to the original unedited image so that the NCA have access to the unaltered image as reference.
 
+In the CLIP notebook there is a additional loss function for "aesthetics" which is something Katherine Crowson [4] came up with. The target rating goes from 0 to 10 where the later corresponds to the most aesthetic. 
+
 
 CLIP:\
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ieXiaoXfrcTt6f2vIGx3Fw1Oz3hyZm-Y?usp=sharing)
@@ -38,5 +40,7 @@ Sources:
 [2] "Using neural cellular automata to robustly control a cart-pole agent" Alexandre Variengien, Sidney Pontes-Filho, Tom Glover1, Stefano Nichele. IMI 2021
 
 [3] "Learning Graph Cellular Automata" Daniele Grattarola, Lorenzo Livi, Cesare Alippi. NeurIPS 2021
+
+[4] https://twitter.com/RiversHaveWings/status/1472334873096376320
 
 For more updates follow me on twitter [![Twitter Follow](https://img.shields.io/twitter/follow/AntonObukhov1?style=social&label=Subscribe!)](https://twitter.com/Omorfiamorphism)

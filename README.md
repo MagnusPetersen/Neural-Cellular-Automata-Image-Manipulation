@@ -1,6 +1,6 @@
 # Neural-Cellular-Automata-Image-Manipulation
 
-This is the repository for both style transfer and CLIP text based image modification using deep neural cellular automata, NCA. NCAs were pioneered by A.M.[1] as an extension to conventional cellular automata by making the update rule learnable via backpropagation. This class of deep learning method has been applied for image recreation [1], texture synthesis [2] and for reinforcement learning applications [3] among others. Furthermore NCAs have been generalized to work on all graphs rather than just grids [4].
+This is the repository for both style transfer and CLIP text based image modification using deep neural cellular automata, NCA. NCAs were pioneered by Alexander Mordvintsev et. al.[1] as an extension to conventional cellular automata by making the update rule learnable via backpropagation. This class of deep learning method has been applied for image recreation [1], texture synthesis [1] and for reinforcement learning applications [2] among others. Furthermore NCAs have been generalized to work on all graphs rather than just grids [3].
 
 This repo contains code to use NCAs to transform images. One notebook contains the code for a Gatys et. al. type style transfer and the other a OpenAI CLIP based version where a prompt can be given to train NCAs to perform that transformation. 
 
@@ -22,16 +22,10 @@ Style Image: A picture of cooked pasta\
 
 Sources:
 
-[1]
+[1] "Differentiable Self-organizing Systems" Alexander Mordvintsev, Ettore Randazzo, Eyvind Niklasson, Michael Levin, Sam Greydanus. Distill.pub 2020
 
-[2]
+[2] "Using neural cellular automata to robustly control a cart-pole agent" Alexandre Variengien, Sidney Pontes-Filho, Tom Glover1, Stefano Nichele. IMI 2021
 
-[3]
-
-[5]
-
-[6]
-
-[7]
+[3] "Learning Graph Cellular Automata" aniele Grattarola, Lorenzo Livi, Cesare Alippi. NeurIPS 2021
 
 For more updates follow me on twitter [![Twitter Follow](https://img.shields.io/twitter/follow/AntonObukhov1?style=social&label=Subscribe!)](https://twitter.com/Omorfiamorphism)

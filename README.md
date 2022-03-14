@@ -19,6 +19,10 @@ CLIP Example:\
 Prompt: "A pencil sketch"\
 <img src="./media/CLIP_sketch.gif" height="300">
 
+CLIP Example:\
+Prompt: "A painting made with multi-colored airport carpet fabric"\
+<img src="./media/CLIP_carpet.gif" height="300">
+
 Style Transfer Example:
 Style Image: A picture of cooked pasta\
 <img src="./media/vgg_pasta.gif" height="300">
